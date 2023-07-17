@@ -426,9 +426,6 @@ li:nth-child(6){
     gap: 12px;
     
 }
-
-
-
 .text-footer{
     display: flex;
     flex-direction: column;
@@ -490,4 +487,5 @@ li:nth-child(6){
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 300px;
 }
