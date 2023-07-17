@@ -1,82 +1,11 @@
-/* 
- @media (max-width: 768px) {
-  body {
-    display: block;
-  }
-
-  .header {
-    width: 100%;
-  }
-
-  .left-header {
-    width: 100%;
-  }
-
-  .content {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-  }
-
-  .right-content {
-    order: 2;
-    width: 100%;
-    margin-top: 30px;
-  }
-
-  .left-content {
-    order: 1;
-    width: 100%;
-    margin-bottom: 30px;
-  }
-
-  .item:nth-child(1) > p {
-    font-size: 30px;
-  }
-
-  .item:nth-child(2) > p {
-    font-size: 18px;
-  }
-
-  .item:nth-child(3) {
-    flex-direction: column;
-  }
-
-
-  .left-content {
-    text-align: center;
-  }
-
-  .left-content .item:nth-child(1) > p {
-    font-size: 40px;
-  }
-
-  .left-content .item:nth-child(2) > p {
-    font-size: 20px;
-  }
-
-  .left-content .item:nth-child(3) {
-    flex-direction: column;
-  }
-
-  .left-content .item:nth-child(3) > button {
-    margin-top: 10px;
-  }
-
-  .right-content {
-    text-align: center;
-    margin-top: 30px;
-  }
-} */
-
-
 @media screen and (max-width: 750px){
   body{
+    width: 750px;
+    height: auto;
     padding: 0;
     margin: 0;
-    /* flex-direction: column; */
-    /* align-items: center; */
+    flex-direction: column;
+    align-items: center;
   }
   .header{
     width: 750px;
@@ -214,40 +143,61 @@
     text-align: center;
   }
 
-
+  /* footer */
   .footer{
     width: 750px;
     margin-top: 350px;
-    height: 1000px;
+    height: 700px;
     margin-top: 10px;
   }
   .main-footer{
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    width: 686px;
-    height: auto;
-    /* align-items: center ; */
-  }
-  .footer-box{
-    flex-direction: column;
-    width: 686px;
-    
+    width: 750px;
+    height: auto; 
     align-items: center;
-    margin: 0;
-    
-    padding-left: 0;
     justify-content: center;
 
+    /* align-items: center ; */
   }
-  .text-footer{
+
+  .footer-box{
+    width: 686px;
+    padding: 0;
+  }
+  .footer-box:nth-child(1){
+    width: 686px;
+    padding: 0;
+    height: 150px;
+  }
+  .footer-box:nth-child(2){
+    width: 686px;
+    padding: 0;
+  }
+  .ff{
+    display: block;
+    /* width: 500px; */
+    /* margin-left: 500px; */
+  }
+  .nth2{
     align-items: center;
     justify-content: center;
+    text-align: center;
+  }
+
+  .nth1{
+    align-items: center;
+    margin-left: 270px;
   }
   .footer-end{
-    flex-direction: column;
+    margin-top: 200px;
   }
 }
 
 
+/* 
+*{
+  border: 1px solid black;
+} */
 
 
